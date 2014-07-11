@@ -4,10 +4,10 @@
 
 # Site
 title: Haidora
-subtitle:
-description:
+subtitle: iOS development team.
+description: Haidora
 author: Haidora
-email:
+email: mrdaios@gmail.com
 language: zh-CN
 
 # URL
@@ -81,7 +81,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: landscape
+theme: modernist
 exclude_generator:
 
 # Deployment
