@@ -2,13 +2,25 @@
 ## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/tommy351/hexo/
 
+# =============================================================================
+# NexT Theme configuration
+# =============================================================================
+
+avatar: https://avatars3.githubusercontent.com/u/8087679?v=3&s=200
+# 多说帐号
+duoshuo_shortname: haidora
+
+# Social links
+social:
+  GitHub: https://github.com/haidora
+
 # Site
 title: Haidora
 subtitle: iOS development team.
-description: Haidora
+description: "iOS development team."
 author: Haidora
 email: haidora.ios@gmail.com
-language: zh-CN
+language: zh-Hans
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -34,7 +46,7 @@ max_open_file: 100
 multi_thread: true
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 highlight:
   enable: true
@@ -81,11 +93,11 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: modernist
+theme: next
 exclude_generator:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
+  type: GitHub
   repo: https://github.com/Haidora/haidora.github.com.git
