@@ -99,5 +99,5 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: GitHub
+  type: git
   repo: https://github.com/Haidora/haidora.github.com.git
